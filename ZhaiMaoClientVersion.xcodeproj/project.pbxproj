@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7BD928A1BBE6E7700017FB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BD92891BBE6E7700017FB7 /* main.m */; };
+		C7BD928D1BBE6E7700017FB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BD928C1BBE6E7700017FB7 /* AppDelegate.m */; };
+		C7BD92901BBE6E7700017FB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BD928F1BBE6E7700017FB7 /* ViewController.m */; };
+		C7BD92931BBE6E7700017FB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BD92911BBE6E7700017FB7 /* Main.storyboard */; };
+		C7BD92951BBE6E7700017FB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7BD92941BBE6E7700017FB7 /* Assets.xcassets */; };
+		C7BD92981BBE6E7700017FB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BD92961BBE6E7700017FB7 /* LaunchScreen.storyboard */; };
+		C7BD92A31BBE6E7700017FB7 /* ZhaiMaoClientVersionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BD92A21BBE6E7700017FB7 /* ZhaiMaoClientVersionTests.m */; };
+		C7BD92AE1BBE6E7700017FB7 /* ZhaiMaoClientVersionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BD92AD1BBE6E7700017FB7 /* ZhaiMaoClientVersionUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7BD929F1BBE6E7700017FB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7BD927D1BBE6E7700017FB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7BD92841BBE6E7700017FB7;
+			remoteInfo = ZhaiMaoClientVersion;
+		};
+		C7BD92AA1BBE6E7700017FB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7BD927D1BBE6E7700017FB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7BD92841BBE6E7700017FB7;
+			remoteInfo = ZhaiMaoClientVersion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7BD92851BBE6E7700017FB7 /* ZhaiMaoClientVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhaiMaoClientVersion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BD92891BBE6E7700017FB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7BD928B1BBE6E7700017FB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7BD928C1BBE6E7700017FB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7BD928E1BBE6E7700017FB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7BD928F1BBE6E7700017FB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7BD92921BBE6E7700017FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7BD92941BBE6E7700017FB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7BD92971BBE6E7700017FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7BD92991BBE6E7700017FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7BD929E1BBE6E7700017FB7 /* ZhaiMaoClientVersionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhaiMaoClientVersionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BD92A21BBE6E7700017FB7 /* ZhaiMaoClientVersionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhaiMaoClientVersionTests.m; sourceTree = "<group>"; };
+		C7BD92A41BBE6E7700017FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7BD92A91BBE6E7700017FB7 /* ZhaiMaoClientVersionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhaiMaoClientVersionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BD92AD1BBE6E7700017FB7 /* ZhaiMaoClientVersionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhaiMaoClientVersionUITests.m; sourceTree = "<group>"; };
+		C7BD92AF1BBE6E7700017FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7BD92821BBE6E7700017FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7BD929B1BBE6E7700017FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7BD92A61BBE6E7700017FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7BD927C1BBE6E7700017FB7 = {
+			isa = PBXGroup;
+			children = (
+				C7BD92871BBE6E7700017FB7 /* ZhaiMaoClientVersion */,
+				C7BD92A11BBE6E7700017FB7 /* ZhaiMaoClientVersionTests */,
+				C7BD92AC1BBE6E7700017FB7 /* ZhaiMaoClientVersionUITests */,
+				C7BD92861BBE6E7700017FB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7BD92861BBE6E7700017FB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7BD92851BBE6E7700017FB7 /* ZhaiMaoClientVersion.app */,
+				C7BD929E1BBE6E7700017FB7 /* ZhaiMaoClientVersionTests.xctest */,
+				C7BD92A91BBE6E7700017FB7 /* ZhaiMaoClientVersionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7BD92871BBE6E7700017FB7 /* ZhaiMaoClientVersion */ = {
+			isa = PBXGroup;
+			children = (
+				C7BD928B1BBE6E7700017FB7 /* AppDelegate.h */,
+				C7BD928C1BBE6E7700017FB7 /* AppDelegate.m */,
+				C7BD928E1BBE6E7700017FB7 /* ViewController.h */,
+				C7BD928F1BBE6E7700017FB7 /* ViewController.m */,
+				C7BD92911BBE6E7700017FB7 /* Main.storyboard */,
+				C7BD92941BBE6E7700017FB7 /* Assets.xcassets */,
+				C7BD92961BBE6E7700017FB7 /* LaunchScreen.storyboard */,
+				C7BD92991BBE6E7700017FB7 /* Info.plist */,
+				C7BD92881BBE6E7700017FB7 /* Supporting Files */,
+			);
+			path = ZhaiMaoClientVersion;
+			sourceTree = "<group>";
+		};
+		C7BD92881BBE6E7700017FB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7BD92891BBE6E7700017FB7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7BD92A11BBE6E7700017FB7 /* ZhaiMaoClientVersionTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7BD92A21BBE6E7700017FB7 /* ZhaiMaoClientVersionTests.m */,
+				C7BD92A41BBE6E7700017FB7 /* Info.plist */,
+			);
+			path = ZhaiMaoClientVersionTests;
+			sourceTree = "<group>";
+		};
+		C7BD92AC1BBE6E7700017FB7 /* ZhaiMaoClientVersionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7BD92AD1BBE6E7700017FB7 /* ZhaiMaoClientVersionUITests.m */,
+				C7BD92AF1BBE6E7700017FB7 /* Info.plist */,
+			);
+			path = ZhaiMaoClientVersionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7BD92841BBE6E7700017FB7 /* ZhaiMaoClientVersion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7BD92B21BBE6E7700017FB7 /* Build configuration list for PBXNativeTarget "ZhaiMaoClientVersion" */;
+			buildPhases = (
+				C7BD92811BBE6E7700017FB7 /* Sources */,
+				C7BD92821BBE6E7700017FB7 /* Frameworks */,
+				C7BD92831BBE6E7700017FB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZhaiMaoClientVersion;
+			productName = ZhaiMaoClientVersion;
+			productReference = C7BD92851BBE6E7700017FB7 /* ZhaiMaoClientVersion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7BD929D1BBE6E7700017FB7 /* ZhaiMaoClientVersionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7BD92B51BBE6E7700017FB7 /* Build configuration list for PBXNativeTarget "ZhaiMaoClientVersionTests" */;
+			buildPhases = (
+				C7BD929A1BBE6E7700017FB7 /* Sources */,
+				C7BD929B1BBE6E7700017FB7 /* Frameworks */,
+				C7BD929C1BBE6E7700017FB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7BD92A01BBE6E7700017FB7 /* PBXTargetDependency */,
+			);
+			name = ZhaiMaoClientVersionTests;
+			productName = ZhaiMaoClientVersionTests;
+			productReference = C7BD929E1BBE6E7700017FB7 /* ZhaiMaoClientVersionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7BD92A81BBE6E7700017FB7 /* ZhaiMaoClientVersionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7BD92B81BBE6E7700017FB7 /* Build configuration list for PBXNativeTarget "ZhaiMaoClientVersionUITests" */;
+			buildPhases = (
+				C7BD92A51BBE6E7700017FB7 /* Sources */,
+				C7BD92A61BBE6E7700017FB7 /* Frameworks */,
+				C7BD92A71BBE6E7700017FB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7BD92AB1BBE6E7700017FB7 /* PBXTargetDependency */,
+			);
+			name = ZhaiMaoClientVersionUITests;
+			productName = ZhaiMaoClientVersionUITests;
+			productReference = C7BD92A91BBE6E7700017FB7 /* ZhaiMaoClientVersionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7BD927D1BBE6E7700017FB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					C7BD92841BBE6E7700017FB7 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					C7BD929D1BBE6E7700017FB7 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = C7BD92841BBE6E7700017FB7;
+					};
+					C7BD92A81BBE6E7700017FB7 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = C7BD92841BBE6E7700017FB7;
+					};
+				};
+			};
+			buildConfigurationList = C7BD92801BBE6E7700017FB7 /* Build configuration list for PBXProject "ZhaiMaoClientVersion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7BD927C1BBE6E7700017FB7;
+			productRefGroup = C7BD92861BBE6E7700017FB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7BD92841BBE6E7700017FB7 /* ZhaiMaoClientVersion */,
+				C7BD929D1BBE6E7700017FB7 /* ZhaiMaoClientVersionTests */,
+				C7BD92A81BBE6E7700017FB7 /* ZhaiMaoClientVersionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7BD92831BBE6E7700017FB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7BD92981BBE6E7700017FB7 /* LaunchScreen.storyboard in Resources */,
+				C7BD92951BBE6E7700017FB7 /* Assets.xcassets in Resources */,
+				C7BD92931BBE6E7700017FB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7BD929C1BBE6E7700017FB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7BD92A71BBE6E7700017FB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7BD92811BBE6E7700017FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7BD92901BBE6E7700017FB7 /* ViewController.m in Sources */,
+				C7BD928D1BBE6E7700017FB7 /* AppDelegate.m in Sources */,
+				C7BD928A1BBE6E7700017FB7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7BD929A1BBE6E7700017FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7BD92A31BBE6E7700017FB7 /* ZhaiMaoClientVersionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7BD92A51BBE6E7700017FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7BD92AE1BBE6E7700017FB7 /* ZhaiMaoClientVersionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7BD92A01BBE6E7700017FB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7BD92841BBE6E7700017FB7 /* ZhaiMaoClientVersion */;
+			targetProxy = C7BD929F1BBE6E7700017FB7 /* PBXContainerItemProxy */;
+		};
+		C7BD92AB1BBE6E7700017FB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7BD92841BBE6E7700017FB7 /* ZhaiMaoClientVersion */;
+			targetProxy = C7BD92AA1BBE6E7700017FB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7BD92911BBE6E7700017FB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7BD92921BBE6E7700017FB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7BD92961BBE6E7700017FB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7BD92971BBE6E7700017FB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7BD92B01BBE6E7700017FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7BD92B11BBE6E7700017FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7BD92B31BBE6E7700017FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZhaiMaoClientVersion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaimao.ZhaiMaoClientVersion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7BD92B41BBE6E7700017FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZhaiMaoClientVersion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaimao.ZhaiMaoClientVersion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C7BD92B61BBE6E7700017FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZhaiMaoClientVersionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaimao.ZhaiMaoClientVersionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZhaiMaoClientVersion.app/ZhaiMaoClientVersion";
+			};
+			name = Debug;
+		};
+		C7BD92B71BBE6E7700017FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZhaiMaoClientVersionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaimao.ZhaiMaoClientVersionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZhaiMaoClientVersion.app/ZhaiMaoClientVersion";
+			};
+			name = Release;
+		};
+		C7BD92B91BBE6E7700017FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZhaiMaoClientVersionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaimao.ZhaiMaoClientVersionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZhaiMaoClientVersion;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C7BD92BA1BBE6E7700017FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZhaiMaoClientVersionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaimao.ZhaiMaoClientVersionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZhaiMaoClientVersion;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7BD92801BBE6E7700017FB7 /* Build configuration list for PBXProject "ZhaiMaoClientVersion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7BD92B01BBE6E7700017FB7 /* Debug */,
+				C7BD92B11BBE6E7700017FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7BD92B21BBE6E7700017FB7 /* Build configuration list for PBXNativeTarget "ZhaiMaoClientVersion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7BD92B31BBE6E7700017FB7 /* Debug */,
+				C7BD92B41BBE6E7700017FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7BD92B51BBE6E7700017FB7 /* Build configuration list for PBXNativeTarget "ZhaiMaoClientVersionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7BD92B61BBE6E7700017FB7 /* Debug */,
+				C7BD92B71BBE6E7700017FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7BD92B81BBE6E7700017FB7 /* Build configuration list for PBXNativeTarget "ZhaiMaoClientVersionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7BD92B91BBE6E7700017FB7 /* Debug */,
+				C7BD92BA1BBE6E7700017FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7BD927D1BBE6E7700017FB7 /* Project object */;
+}
